@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Envío de Paquetes</title>
+</head>
+<body>
+    <h1>Formulario de Envío de Paquetes</h1>
+    <form action="https://wa.me/593980844531?text=DESTINATARIO:%20{destinatario}%0ACEDULA/RUC:%20{cedula_ruc}%0ATELEFONO%20CONTACTO:%20{telefono_contacto}%0ANOMBRE%20DEL%20SECTOR:%20{nombre_sector}%0ACALLE%20PRINCIPAL:%20{calle_principal}%0ANUMERO%20DE%20CASA:%20{numero_casa}%0ACALLE%20TRANSVERSAL:%20{calle_transversal}%0AREFERENCIA:%20{referencia}%0ACONTACTO:%20{contacto}%0ACIUDAD:%20{ciudad}%0APROVINCIA:%20{provincia}%0AOBSERVACIÓN:%20{observacion}%0A" method="post">
+        <label for="destinatario">Destinatario:</label><br>
+        <input type="text" id="destinatario" name="destinatario" required><br><br>
+        <label for="cedula_ruc">Cédula/RUC:</label><br>
+        <input type="text" id="cedula_ruc" name="cedula_ruc" required><br><br>
+        <label for="telefono_contacto">Teléfono de Contacto:</label><br>
+        <input type="tel" id="telefono_contacto" name="telefono_contacto" required><br><br>
+        <label for="nombre_sector">Nombre del Sector:</label><br>
+        <input type="text" id="nombre_sector" name="nombre_sector" required><br><br>
+        <label for="calle_principal">Calle Principal:</label><br>
+        <input type="text" id="calle_principal" name="calle_principal" required><br><br>
+        <label for="numero_casa">Número de Casa:</label><br>
+        <input type="text" id="numero_casa" name="numero_casa" required><br><br>
+        <label for="calle_transversal">Calle Transversal:</label><br>
+        <input type="text" id="calle_transversal" name="calle_transversal" required><br><br>
+        <label for="referencia">Referencia:</label><br>
+        <input type="text" id="referencia" name="referencia" required><br><br>
+        <label for="contacto">Contacto:</label><br>
+        <input type="text" id="contacto" name="contacto" required><br><br>
+        <label for="ciudad">Ciudad:</label><br>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+        <label for="provincia">Provincia:</label><br>
+        <input type="text" id="provincia" name="provincia" required><br><br>
+        <label for="observacion">Observación:</label><br>
+        <textarea id="observacion" name="observacion"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
